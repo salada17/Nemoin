@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SugarHill.Nemoin</name>
+    </assembly>
+    <members>
+        <member name="T:SugarHill.OfficeSquare.WebApp.ApiControllers.ArticleForSaleApiController">
+            <summary>
+            매물 내놓기
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.WebApp.ApiControllers.BaseApiController">
+            <summary>
+            기본 Api 컨트롤러
+            </summary>
+        </member>
+    </members>
+</doc>

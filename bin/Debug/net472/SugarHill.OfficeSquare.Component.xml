@@ -1,0 +1,3280 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SugarHill.OfficeSquare.Component</name>
+    </assembly>
+    <members>
+        <member name="T:SugarHill.OfficeSquare.Component.BindingModels.Account.AdminChangeProfileBindingModel">
+            <summary>
+            일반 계정 수정 파라메터 바인딩 모델
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.AdminChangeProfileBindingModel.FullName">
+            <summary>
+            이름 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.AdminChangeProfileBindingModel.PhoneNumber">
+            <summary>
+            휴대폰 번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.AdminChangeProfileBindingModel.PhoneNumberConfirmed">
+            <summary>
+            휴대ㅗㄴ 번호 인증
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.BindingModels.Account.ChangePasswordBindingModel">
+            <summary>
+            비밀번호 변경 파라메터 바인딩 모델
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ChangePasswordBindingModel.OldPassword">
+            <summary>
+            현재 비밀번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ChangePasswordBindingModel.NewPassword">
+            <summary>
+            새 비밀번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ChangePasswordBindingModel.ConfirmPassword">
+            <summary>
+            새 비밀번호 확인
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.BindingModels.Account.ChangeProfileBindingModel">
+            <summary>
+            내 계정 수정 파라메터 바인딩 모델
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ChangeProfileBindingModel.FullName">
+            <summary>
+            이름 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ChangeProfileBindingModel.Email">
+            <summary>
+            이메일
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ChangeProfileBindingModel.PhoneNumber">
+            <summary>
+            휴대폰 번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ChangeProfileBindingModel.IsJoinedMailingList">
+            <summary>
+            이벤트 및 혜택 알림 수신 동의
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ChangeProfileBindingModel.ProfilePhotoUrl">
+            <summary>
+            무시
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ChangeProfileBindingModel.OldPassword">
+            <summary>
+            현재 비밀번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ChangeProfileBindingModel.NewPassword">
+            <summary>
+            변경할 새 비밀번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ChangeProfileBindingModel.ConfirmNewPassword">
+            <summary>
+            변경할 새 비밀번호 확인
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.BindingModels.Account.ExternalTokenBindingModel">
+            <summary>
+            외부로그인 파라메터 바인딩 모델
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ExternalTokenBindingModel.Provider">
+            <summary>
+            로그인 공급자 - Facebook, Naver, Kakao (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ExternalTokenBindingModel.AccessToken">
+            <summary>
+            인증토큰 (필수)
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.BindingModels.Account.LoginBindingModel">
+            <summary>
+            로그인 파라메터 바인딩 모델
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.LoginBindingModel.Email">
+            <summary>
+            이메일 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.LoginBindingModel.Password">
+            <summary>
+            비밀번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.LoginBindingModel.RememberMe">
+            <summary>
+            로그인 기억하기
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.LoginBindingModel.ReturnUrl">
+            <summary>
+            되돌아갈 주소
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.BindingModels.Account.ForgotPasswordBindingModel">
+            <summary>
+            비밀번호 리셋 인증 요청 바인딩 모델
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ForgotPasswordBindingModel.Email">
+            <summary>
+            이메일 (필수)
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.BindingModels.Account.ForgotPasswordBindingModelV2">
+            <summary>
+            비밀번호 리셋 인증 요청 바인딩 모델 v2
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ForgotPasswordBindingModelV2.Email">
+            <summary>
+            이메일 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ForgotPasswordBindingModelV2.ConfirmEmail">
+            <summary>
+            이메일 확인 (필수)
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.BindingModels.Account.ResetPasswordBindingModel">
+            <summary>
+            비밀번호 초기화 요청 바인딩 모델
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ResetPasswordBindingModel.Email">
+            <summary>
+            이메일 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ResetPasswordBindingModel.Code">
+            <summary>
+            인증코드 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ResetPasswordBindingModel.Password">
+            <summary>
+            새 비밀번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.ResetPasswordBindingModel.ConfirmPassword">
+            <summary>
+            새 비밀번호 확인
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.BindingModels.Account.RegisterBindingModel">
+            <summary>
+            회원가입 파라메터 바인딩 모델
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.RegisterBindingModel.Email">
+            <summary>
+            이메일 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.RegisterBindingModel.FullName">
+            <summary>
+            이름 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.RegisterBindingModel.Password">
+            <summary>
+            비밀번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.RegisterBindingModel.ConfirmPassword">
+            <summary>
+            비밀번호 확인
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.RegisterBindingModel.PhoneNumber">
+            <summary>
+            휴대폰 번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.RegisterBindingModel.IsJoinedMailingList">
+            <summary>
+            이벤트 및 혜택 알림 수신 동의
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.BindingModels.Account.SetProfileImageBindingModel">
+            <summary>
+            프로필 사진 변경 파라메터 바인딩 모델
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.SetProfileImageBindingModel.Photo">
+            <summary>
+            프로필 사진
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.BindingModels.Account.TokenBindingModel">
+            <summary>
+            토큰발급 파라메터 바인딩 모델
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.TokenBindingModel.Email">
+            <summary>
+            이메일 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Account.TokenBindingModel.Password">
+            <summary>
+            비밀번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateAgentBindingModel.Position">
+            <summary>
+            직급/직책 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateAgentBindingModel.Role">
+            <summary>
+            권한 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateAgentBindingModel.Operator">
+            <summary>
+            담당 영업사원 (선택)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.Name">
+            <summary>
+            중개업소명 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.NameOfRepresentative">
+            <summary>
+            대표자명 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.BusinessNumber">
+            <summary>
+            사업자등록번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.BusinessCertificateFileKey">
+            <summary>
+            사업자등록증 키
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.RegistrationNumber">
+            <summary>
+            중개등록번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.RegistrationCertificateFileKey">
+            <summary>
+            중개등록증 키
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.ProvinceCode">
+            <summary>
+            시 지역코드 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.MunicipalityCode">
+            <summary>
+            구 지역코드 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.SubmunicipalityCode">
+            <summary>
+            동 지역코드 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.JibunAddress">
+            <summary>
+            지번주소 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.RoadAddressPart1">
+            <summary>
+            도로명주소1 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.RoadAddressPart2">
+            <summary>
+            도로명주소2
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.DetailAddress">
+            <summary>
+            상세주소 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.RoadNameManagementSerialNumber">
+            <summary>
+            도로명관리번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.BuildingManagementSerialNumber">
+            <summary>
+            건물관리번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.ZipCode">
+            <summary>
+            우편번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.Latitude">
+            <summary>
+            위치좌표 위도 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.Longitude">
+            <summary>
+            위치좌표 경도 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.TelephoneNumber">
+            <summary>
+            유선전화번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateBindingModelBase.AgentProfilePhotoKey">
+            <summary>
+            대표이미지 키
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateSubAccountBindingModel.Password">
+            <summary>
+            비밀번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateSubAccountBindingModel.ConfirmPassword">
+            <summary>
+            비밀번호 확인
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateWithUserBindingModel.FullName">
+            <summary>
+            이름 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateWithUserBindingModel.Email">
+            <summary>
+            이메일 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateWithUserBindingModel.Password">
+            <summary>
+            비밀번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateWithUserBindingModel.ConfirmPassword">
+            <summary>
+            비밀번호 확인
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateWithUserBindingModel.PhoneNumber">
+            <summary>
+            휴대폰 번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateWithUserBindingModel.IsJoinedMailingList">
+            <summary>
+            이벤트 및 혜택 알림 수신 동의
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.CreateWithUserBindingModel.UserProfilePhotoKey">
+            <summary>
+            프로필 사진 키
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.GetAgentArticlesCentroidBindingModel.ArticleType">
+            <summary>
+            매물 정류 (1: 상가, 2: 사무실, 3: 상가 + 사무실)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.SearchAgentBindingModel.Region">
+            <summary>
+            동 지역코드 또는 그리드코드 (좌표값 또는 지하철역 아이디가 없으면 필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.SearchAgentBindingModel.Building">
+            <summary>
+            건물번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.SearchAgentBindingModel.ArticleType">
+            <summary>
+            매물 종류
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.SearchAgentBindingModel.Page">
+            <summary>
+            페이지 인덱스
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.SetProfileImageBindingModel.Photo">
+            <summary>
+            프로필 사진
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.SubAccountBindingModelBase.Email">
+            <summary>
+            이메일 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.SubAccountBindingModelBase.FullName">
+            <summary>
+            이름 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.SubAccountBindingModelBase.PhoneNumber">
+            <summary>
+            휴대폰 번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.SubAccountBindingModelBase.IsJoinedMailingList">
+            <summary>
+            이벤트 및 혜택 알림 수신 동의
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.SubAccountBindingModelBase.Position">
+            <summary>
+            직급/직책 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.SubAccountBindingModelBase.Role">
+            <summary>
+            권한 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.SubAccountBindingModelBase.IsArticleManager">
+            <summary>
+            매물 관리자 (옵션)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.UpdateSubAccountBindingModel.Password">
+            <summary>
+            비밀번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.UpdateSubAccountBindingModel.ConfirmPassword">
+            <summary>
+            비밀번호 확인
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.UploadCertificateFileBindingModel.CertificateFile">
+            <summary>
+            인증파일 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.UploadProfilePhotoBindingModel.ProfilePhoto">
+            <summary>
+            프로필 사진 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Agent.UploadHomeSafetyPhotoBindingModel.FacilityPhoto">
+            <summary>
+            시설물 사진
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.AppFeature.AppFeatureIndexBindingModel.Category">
+            <summary>
+            분류 (필수), (1: 상업용, 2: 주거용)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.ArticleReport.CreateBindingModel.PhoneNumber">
+            <summary>
+            연락처 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.ArticleReport.CreateBindingModelBase.ReportType">
+            <summary>
+            신고유형 (1: 거래완료, 2: 표기 정보) (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.ArticleReport.CreateBindingModelBase.Options">
+            <summary>
+            항목
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.ArticleReport.CreateBindingModelBase.Comment">
+            <summary>
+            신고사유
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.ArticleReport.CreateBindingModelBase.BlockAgent">
+            <summary>
+            공인중개사 차단하기
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.ArticleReport.CreateBindingModelBase.AgentId">
+            <summary>
+            공인중개사 아이디
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.BindingModels.Article.ClusterSearchBindingModel">
+            <summary>
+            클러스터 검색 파라메터 바인딩 모델
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModel.Subway">
+            <summary>
+            지하철역 아이디 (좌표값 또는 동 지역코드가 없으면 필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModel.Radius">
+            <summary>
+            반경
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModel.Latitude">
+            <summary>
+            위도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModel.Longitude">
+            <summary>
+            경도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModel.Building">
+            <summary>
+            건물
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModel.PageSize">
+            <summary>
+            페이지 사이즈
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModel.SortBy">
+            <summary>
+            정렬
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.DepositMin">
+            <summary>
+            최소 보증금
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.DepositMax">
+            <summary>
+            최대 보증금
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.MRentMin">
+            <summary>
+            최소 월세
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.MRentMax">
+            <summary>
+            최대 월세
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.SaleMin">
+            <summary>
+            최소 매매가
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.SaleMax">
+            <summary>
+            최대 매매가
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.Premium">
+            <summary>
+            권리금 있음?
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.PremiumMin">
+            <summary>
+            최소 권리금 (Premium이 true일때 적용)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.PremiumMax">
+            <summary>
+            최대 권리금 (Premium이 true일때 적용)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.DealType">
+            <summary>
+            거래 종류
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.ArticleType">
+            <summary>
+            매물 종류
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.BuildingType">
+            <summary>
+            건물 형태
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.StructureType">
+            <summary>
+            구조 형태
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.PriceType">
+            <summary>
+            가격 종류
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.SizeMin">
+            <summary>
+            최소 전용면적
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.SizeMax">
+            <summary>
+            최대 전용면적
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.MFeeMin">
+            <summary>
+            관리비 최소
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.MFeeMax">
+            <summary>
+            관리비 최대
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.Floor">
+            <summary>
+            해당 층
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.IsAllFloors">
+            <summary>
+            건물 전체
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.Parking">
+            <summary>
+            주차가능?
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.ParkingSlotMin">
+            <summary>
+            최소 주차 공간 (Parking이 true일때 적용)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.ParkingSlotMax">
+            <summary>
+            최대 주차 공간 (Parking이 true일때 적용)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.Heating">
+            <summary>
+            난방형식
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.Interior">
+            <summary>
+            인테리어(설비) 여부?
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.Elevator">
+            <summary>
+            엘리베이터 있음?
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.IndependentSpaceCount">
+            <summary>
+            독립공간개수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.Toilet">
+            <summary>
+            화장실 종류
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.BYearMin">
+            <summary>
+            준공년도 최소
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.BYearMax">
+            <summary>
+            준공년도 최대
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.RoofTop">
+            <summary>
+            루프탑?
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.Terrace">
+            <summary>
+            테라스?
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.AirConditioner">
+            <summary>
+            에어컨?
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.Duplex">
+            <summary>
+            복층?
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.VR">
+            <summary>
+            VR?
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.OfficeShare">
+            <summary>
+            오피스쉐어?
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.ShopInShop">
+            <summary>
+            샵인샵
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.BusinessField">
+            <summary>
+            업종
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.IsExclusive">
+            <summary>
+            전속매물
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.Loan">
+            <summary>
+            전세자금대출
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.New">
+            <summary>
+            신축
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.Parcel">
+            <summary>
+            분양
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.AgentId">
+            <summary>
+            중개사 아이디
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.UserId">
+            <summary>
+            계정 아이디
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.Page">
+            <summary>
+            페이지 인덱스
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.Region">
+            <summary>
+            동 지역코드 또는 그리드코드 (좌표값 또는 지하철역 아이디가 없으면 필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.Animal">
+            <summary>
+            반려동물
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.ShortLease">
+            <summary>
+            단기임대
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.FullOptions">
+            <summary>
+            풀옵션
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.FourBay">
+            <summary>
+            4베이설계
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.DressRoom">
+            <summary>
+            드레스룸
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.FrontRoom">
+            <summary>
+            전실
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.FirstMoveIn">
+            <summary>
+            최초입주
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.NowMoveIn">
+            <summary>
+            즉시입주
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchArticleBindingModelBase.MarketPriceType">
+            <summary>
+            시세데이터 포함
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchFeaturedArticleBindingModel.Longitude">
+            <summary>
+            경도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchFeaturedArticleBindingModel.Latitude">
+            <summary>
+            위도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchFeaturedArticleBindingModel.ArticleType">
+            <summary>
+            매물 종류 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchFeaturedArticleBindingModel.BuildingType">
+            <summary>
+            빌딩 종류
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchNearArticleBindingModel.Longitude">
+            <summary>
+            경도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchNearArticleBindingModel.Latitude">
+            <summary>
+            위도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Article.SearchNearArticleBindingModel.ArticleType">
+            <summary>
+            매물 종류 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.BusinessStore.GetBusinessStoreCountByRegionBindingModel.RegionCode">
+            <summary>
+            시코드 또는 구코드
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.BusinessStore.GetBusinessStoreCountByRegionBindingModel.CategoryCode">
+            <summary>
+            업종코드
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.BusinessStore.GetBusinessStoresBindingModel.CategoryCode">
+            <summary>
+            업종코드
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.BusinessStore.GetBusinessStoresBindingModel.Radius">
+            <summary>
+            반경
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.BusinessStore.GetBusinessStoresBindingModel.Latitude">
+            <summary>
+            위도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.BusinessStore.GetBusinessStoresBindingModel.Longitude">
+            <summary>
+            경도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.BusinessStore.GetBusinessStoresBindingModel.Page">
+            <summary>
+            페이지 인덱스
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpaceCompany.CreateBindingModel.Name">
+            <summary>
+            회사명 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpaceCompany.CreateBindingModel.NameOfRepresentative">
+            <summary>
+            대표자명 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpaceCompany.CreateBindingModel.TelephoneNumber">
+            <summary>
+            유선전화번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpaceCompany.CreateBindingModel.RegistrationNumber">
+            <summary>
+            사업자등록번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpaceCompany.CreateBindingModel.RegistrationCertificateFileKey">
+            <summary>
+            사업자등록증 키
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpaceCompany.CreateBindingModel.FullName">
+            <summary>
+            이름 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpaceCompany.CreateBindingModel.Position">
+            <summary>
+            직급/직책 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpaceCompany.CreateBindingModel.Email">
+            <summary>
+            이메일 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpaceCompany.CreateBindingModel.Password">
+            <summary>
+            비밀번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpaceCompany.CreateBindingModel.ConfirmPassword">
+            <summary>
+            비밀번호 확인
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpaceCompany.CreateBindingModel.PhoneNumber">
+            <summary>
+            휴대폰 번호 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpaceCompany.CreateBindingModel.IsJoinedMailingList">
+            <summary>
+            이벤트 및 혜택 알림 수신 동의
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpaceCompany.CreateBindingModel.UserProfilePhotoKey">
+            <summary>
+            프로필 사진 키
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpaceCompany.UploadCertificateFileBindingModel.CertificateFile">
+            <summary>
+            인증파일 (필수)
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpace.ClusterSearchBindingModel">
+            <summary>
+            코워킹스페이스 지점 클러스터 검색 바인딩 모델
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpace.SearchBindingModelBase.Id">
+            <summary>
+            지점 아이디 (좌표값이 또는 건물번호 없으면 필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpace.SearchBindingModelBase.Building">
+            <summary>
+            건물번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpace.SearchBindingModel.IsFeatured">
+            <summary>
+            지점 아이디가 있을 때 IsFeatured 값 오버라이드
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.CoworkingSpace.SearchBindingModel.Page">
+            <summary>
+            페이지 인덱스
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Event.UploadBannerImageFileBindingModel.File">
+            <summary>
+            배너이미지파일 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.FullTextSearchKeyword.RecommendedKeywordBindingModel.Type">
+            <summary>
+            타입
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.FullTextSearchKeyword.RecommendedKeywordBindingModel.Longitude">
+            <summary>
+            경도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.FullTextSearchKeyword.RecommendedKeywordBindingModel.Latitude">
+            <summary>
+            위도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.FullTextSearchKeyword.SearchKeywordBindingModel.Type">
+            <summary>
+            타입
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.FullTextSearchKeyword.SearchKeywordBindingModel.Q">
+            <summary>
+            검색어
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.MapSearchBindingModelBase.SWLng">
+            <summary>
+            남서 경도 (아이디값이 없으면 필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.MapSearchBindingModelBase.SWLat">
+            <summary>
+            남서 위도 (아이디값이 없으면 필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.MapSearchBindingModelBase.NELng">
+            <summary>
+            북동 경도 (아이디값이 없으면 필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.MapSearchBindingModelBase.NELat">
+            <summary>
+            북동 위도 (아이디값이 없으면 필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.MapSearchBindingModelBase.Zoom">
+            <summary>
+            줌레벨
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.MapSearchBindingModelBase.IsValidBoundingBox">
+            <summary>
+            무시
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverIA212BindingModel.VerificationCode">
+            <summary>
+            검증단계코드
+            [홍보확인서] D10 : 홍보확인서 확인, D20 : 등본확인, D30 : 네이버인증(홍보확인서2의 직거래 only)
+            [전화확인] T10 : 전화확인, T20 : 등본확인
+            [모바일확인] M10 : 모바일확인, M15 : 분양계약서확인, M20 : 등본확인
+            [현장확인] S10: 예약확인, S20: 현장방문, S30: 검수확인
+            [집주인확인] O10: 등기부등본 검증, O20: 소유자 실명인증
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReceiveReportArticleBindingModel.ReportId">
+            <summary>
+            신고번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReceiveReportArticleBindingModel.NaverArticleNumber">
+            <summary>
+            네이버 매물번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReceiveReportArticleBindingModel.ArticleNumber">
+            <summary>
+            네모 매물번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReceiveReportArticleBindingModel.RegistrationNumber">
+            <summary>
+            중개업소 사업자 번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReceiveReportArticleBindingModel.ReportTypeName">
+            <summary>
+            신고사유코드, NaverCPReportType
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReceiveReportArticleBindingModel.ReportDescription">
+            <summary>
+            신고설명, ReportDescription
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.ReportId">
+            <summary>
+            신고번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.CleanCenterStepType">
+            <summary>
+            처리단계 (중개사 처리단계: RLTR, 유선확인 단계 : CALL, 현장검증단계 : FILD)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.CleanCenterResultType">
+            <summary>
+            처리결과 (정상매물: NOMAL, 기간만료 : EXPR, 허위매물 : FALSE, 부재종료 : ABEND, 검증거부 : DENY, 검증불가 : IMPS, 거래완료 : CMPL)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.CleanCenterArticleExposeType">
+            <summary>
+            매물노출처리 (노출: EXPS, 노출종료 : CLOSE)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.IsCleanCenterWarning">
+            <summary>
+            클린센터 경고처리 여부
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.CleanCenterPenaltyId">
+            <summary>
+            클린센터 경고 고유번호(id - 부여된 페널티의 ID값 (페널티 취소 시 해당 페널티 인식을 위해서 쓰임))
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.CleanCenterPenaltyType">
+            <summary>
+            클린센터 경고 타입 (경고: WARN, 경고누적 페널티: PWARN, 유선확인 페널티: PCALL, 현장검증 페널티: PFILD, 신고자 페널티 : PDCLR(신고자 페널티의 경우 penaltyId 없음.해당 페널티의 취소 관리는 각 서비스 업체에서 담당 함.)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.PenaltyPublicFromKst">
+            <summary>
+            페널티 시작일시
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.PenaltyPublicToKst">
+            <summary>
+            페널티 종료일시
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.KisoAgentMessage">
+            <summary>
+            KISO 담당자가 중개사에 보내는 메세지
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.KisoReporterMessage">
+            <summary>
+            KISO 담당자가 신고자에 보내는 메세지
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.IsCompleted">
+            <summary>
+            [검증신청 결과에서 필수 존재]
+            클린센터 사후검증 종료여부 (최종종료)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.CleanCenterStepCount">
+            <summary>
+            [검증신청 결과에서 필수 존재]
+            해당 단계의 번복이 있는 경우에 count를 증가시킨 값으로 전송
+            용도 : api 호출 타임이 꼬이는 경우, 최종 번복을 판별하기 위함.
+            (예: 중개업소가 정상 처리시 이에 대한 결과가 1이라면 이후 다시 상태변경을 통해허위매물로 처리가 되어야 하는 상황에 대한 전달은 2로 증가시켜 전달)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.CleanCenterCompletedKst">
+            <summary>
+            검증 처리 일시 (재신고 단계 : 상담일시, 현장검증 단계 : 방문일시) 
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportCleanResultArticleBindingModel.CleanCenterArticleClosedKst">
+            <summary>
+            매물 노출 중단 일시, 매물 노출 중단이 발생한 경우만 전달
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportResultArticleBindingModel.ReportId">
+            <summary>
+            신고번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportResultArticleBindingModel.NaverArticleNumber">
+            <summary>
+            네이버 매물번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportResultArticleBindingModel.ArticleNumber">
+            <summary>
+            네모 매물번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportResultArticleBindingModel.RegistrationNumber">
+            <summary>
+            중개업소 사업자 번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportResultArticleBindingModel.ReportResultMessage">
+            <summary>
+            신고사유코드
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Naver.NaverReportResultArticleBindingModel.ReportMessage">
+            <summary>
+            신고설명
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.NemoShop.UploadImageFileBindingModel.Image">
+            <summary>
+            이미지 (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Notice.NoticeIndexBindingModel.Category">
+            <summary>
+            분류 (필수), (1: 뉴스)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Notice.NoticeIndexBindingModel.Size">
+            <summary>
+            리스트 사이즈 (옵션), 기본값: 4
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Notification.RegisterBindingModel.Platform">
+            <summary>
+            디바이스 플랫폼 (2: iOS, 4: Android) (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Notification.RegisterBindingModel.PnsHandle">
+            <summary>
+            디바이스 토큰 (iOS: device info, Andoird: Firebase token) (필수)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Notification.RegisterBindingModel.Tags">
+            <summary>
+            태그
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Notification.RegisterBindingModel.DeviceId">
+            <summary>
+            디바이스 아이디
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Sales.SalesIndexBindingModel.RegionCode">
+            <summary>
+            구코드
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.BindingModels.Sales.SalesIndexBindingModel.Page">
+            <summary>
+            페이지 인덱스
+            </summary>
+        </member>
+        <member name="M:SugarHill.OfficeSquare.Component.Managers.BusinessStoreQueryManager.GetBusinessStoreCountByRegionAsync(SugarHill.OfficeSquare.Component.BindingModels.BusinessStore.GetBusinessStoreCountByRegionBindingModel)">
+            <summary>
+            행정구역 단위 카테고리별 상가업소 개수
+            </summary>
+        </member>
+        <member name="M:SugarHill.OfficeSquare.Component.Managers.BusinessStoreQueryManager.GetBusinessStoresAsync(SugarHill.OfficeSquare.Component.BindingModels.BusinessStore.GetBusinessStoresBindingModel)">
+            <summary>
+            지정한 범위내에 상가업소 리스트
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Managers.HomeSafetyCommandManager.EntranceHomeSafetyCategory">
+            <summary>
+            현관 카테고리
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Managers.HomeSafetyCommandManager.LivingroomHomeSafetyCategory">
+            <summary>
+            거실 카테고리
+            </summary>
+            
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Managers.HomeSafetyCommandManager.KitchenHomeSafetyCategory">
+            <summary>
+            주방 카테고리
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Managers.HomeSafetyCommandManager.MultipurposeroomHomeSafetyCategory">
+            <summary>
+            다용도실 카테고리
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Managers.HomeSafetyCommandManager.BoilerroomSafetyCategory">
+            <summary>
+            공조실 카테고리
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Managers.HomeSafetyCommandManager.VerandaHomeSafetyCategory">
+            <summary>
+            베란다 카테고리
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Managers.HomeSafetyCommandManager.BathroomHomeSafetyCategory">
+            <summary>
+            화장실 카테고리
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Managers.HomeSafetyCommandManager.RoomHomeSafetyCategory">
+            <summary>
+            방 카테고리
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Managers.HomeSafetyCommandManager.FulloptionHomeSafetyCategory">
+            <summary>
+            풀옵션 카테고리
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.Inbound">
+            <summary>
+            인바운드
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.Outbound">
+            <summary>
+            아웃바운드
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.ExternalOperate">
+            <summary>
+            외부영업
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.HappyCall">
+            <summary>
+            해피콜
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.HelpEmail">
+            <summary>
+            헬프메일
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.SMS">
+            <summary>
+            SMS
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.InternalOperate">
+            <summary>
+            운영업업
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.CreateItem">
+            <summary>
+            상품 등록
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.EditItem">
+            <summary>
+            상품 수정
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.CancelItem">
+            <summary>
+            상품 취소
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.RefundItem">
+            <summary>
+            상품 환불
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.PreRegistration">
+            <summary>
+            미가입
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.PostRegistration">
+            <summary>
+            가입
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.ItemReservation">
+            <summary>
+            예약대기
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.CancelItemReservation">
+            <summary>
+            예약대기취소
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.ReservedAgentHistoryCategory.CreatePenalty">
+            <summary>
+            패널티 등록
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.Agent.OfficeArticleCount">
+            <summary>
+            상업용 사무실 매물 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.Agent.StoreArticleCount">
+            <summary>
+            상업용 상가 매물 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.Agent.AllArticleCount">
+            <summary>
+            상업용 총 매물 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.Agent.RoomArticleCount">
+            <summary>
+            주거용 원룸/오피스텔 매물 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.Agent.VillaArticleCount">
+            <summary>
+            주거용 빌라 매물 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.Agent.ApartmentArticleCount">
+            <summary>
+            주거용 아파트 매물 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.Agent.AllHouseArticleCount">
+            <summary>
+            주거용 총 매물 수 
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.AgentUser.OfficeArticleCount">
+            <summary>
+            상업용 사무실 매물 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.AgentUser.StoreArticleCount">
+            <summary>
+            상업용 상가 매물 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.AgentUser.AllArticleCount">
+            <summary>
+            상업용 총 매물 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.AgentUser.RoomArticleCount">
+            <summary>
+            주거용 원룸/오피스텔 매물 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.AgentUser.VillaArticleCount">
+            <summary>
+            주거용 빌라 매물 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.AgentUser.ApartmentArticleCount">
+            <summary>
+            주거용 아파트 매물 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.AgentUser.AllHouseArticleCount">
+            <summary>
+            주거용 총 매물 수 
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.AgentUser.IsArticleManager">
+            <summary>
+            매물 관리 매니저 여부 (계정간 매물조회 권한)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ReferenceAgent.CreatedDateUtc">
+            <summary>
+            등록날짜
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ReferenceAgent.Remark">
+            <summary>
+            관리자 메모
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ReferenceAgent.State">
+            <summary>
+            확인 상태
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ReferenceAgent.Name">
+            <summary>
+            중개업소 이름
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ReferenceAgent.NameOfRepresentative">
+            <summary>
+            담당자 이름
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ReferenceAgent.PhoneNumber">
+            <summary>
+            연락처
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ArticleDetailDTO.ArticleOptions">
+            <summary>
+            매물 특징
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ArticleDetailDTO.DetailOptions">
+            <summary>
+            매물 옵션
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ArticleItemGroup.Operator">
+            <summary>
+            현재 담당자 (기득권)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ArticleItemGroup.RegistrationOperator">
+            <summary>
+            등록 담당자
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ArticleItemGroup.ReceptionOperator">
+            <summary>
+            접수 담당자
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.RoomHouse">
+            <summary>
+            단독
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.MultipleHome">
+            <summary>
+            다중
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.MultipleDwellings">
+            <summary>
+            다가구
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.MultiplexHouse">
+            <summary>
+            다세대
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.TownHouse">
+            <summary>
+            연립
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.CountryHouse">
+            <summary>
+            전원주택
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.KoreanHouse">
+            <summary>
+            한옥주택
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.Officetel">
+            <summary>
+            오피스텔
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.Apartment">
+            <summary>
+            아파트
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.OfficeHouse">
+            <summary>
+            주택형
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.OfficeBuilding">
+            <summary>
+            빌딩형
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.Warehouse">
+            <summary>
+            창고형
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.Factory">
+            <summary>
+            공장형
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.OfficetelOffice">
+            <summary>
+            오피스텔형
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.KnowledgeIndustryCenter">
+            <summary>
+            지식산업센터
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.Neighborhood">
+            <summary>
+            근린상가
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.DowntownDwelling">
+            <summary>
+            상가주택
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.ComplexStore">
+            <summary>
+            단지내상가
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.MultipurposeBuilding">
+            <summary>
+            주상복합상가
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.ThemeMall">
+            <summary>
+            테마형상가
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.BuildingType.KnowledgeIndustryCenterStore">
+            <summary>
+            지식산업센터상가
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.Complex.FloorAreaRatio">
+            <summary>
+            용적률
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.Complex.BuildingCoverageRadio">
+            <summary>
+            건폐율
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters">
+            <summary>
+            가맹본부
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.RegistrationNumber">
+            <summary>
+            사업자등록번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.Name">
+            <summary>
+            상호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.NameOfRepresentative">
+            <summary>
+            대표자명
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.TelephoneNumber">
+            <summary>
+            대표번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.FaxNumber">
+            <summary>
+            대표팩스번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.Address">
+            <summary>
+            주소
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.BusinessLicenseType">
+            <summary>
+            사업자유형
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.BusinessNumber">
+            <summary>
+            법인등록번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.IncorporationDateUtc">
+            <summary>
+            법인설립등기일
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.RegistrationDateUtc">
+            <summary>
+            사업자등록일
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.BrandCount">
+            <summary>
+            브랜드 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.AffiliateCount">
+            <summary>
+            계열사 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.EmployeeState">
+            <summary>
+            임직원 현황
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.ViolationState">
+            <summary>
+            법 위반 사실
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.FinanceStatesJson">
+            <summary>
+            재무상황 Json
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseHeadquarters.Brands">
+            <summary>
+            가맹브랜드
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.FinanceState">
+            <summary>
+            재무상황
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FinanceState.Year">
+            <summary>
+            연도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FinanceState.MakeType">
+            <summary>
+            재무제표 작성여부
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FinanceState.Assets">
+            <summary>
+            자산
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FinanceState.Debt">
+            <summary>
+            부채
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FinanceState.Capital">
+            <summary>
+            자본
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FinanceState.Sales">
+            <summary>
+            매출액
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FinanceState.BusinessProfits">
+            <summary>
+            영업이익
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FinanceState.CurrentIncome">
+            <summary>
+            당기순이익
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.EmployeeState">
+            <summary>
+            임직원 현황
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.EmployeeState.Year">
+            <summary>
+            연도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.EmployeeState.OfficerCount">
+            <summary>
+            임원수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.EmployeeState.StaffCount">
+            <summary>
+            직원수
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.ViolationState">
+            <summary>
+            법 위반 사실
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ViolationState.MonopolyCount">
+            <summary>
+            공정거래
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ViolationState.CivilSuitCount">
+            <summary>
+            민사소송
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ViolationState.GuiltCount">
+            <summary>
+            형의선고
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.FranchiseBrand">
+            <summary>
+            프랜차이즈 브랜드
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.RegistrationNumber">
+            <summary>
+            등록번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.HeadquartersRegistrationNumber">
+            <summary>
+            가맹본부 사업자등록번호
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.Headquarters">
+            <summary>
+            가맹본부
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.Name">
+            <summary>
+            영업표지
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.CategoryName">
+            <summary>
+            업종
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.FirstRegistrationDateUtc">
+            <summary>
+            최초등록일
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.LastRegistrationDateUtc">
+            <summary>
+            최종등록일
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.OpenDateUtc">
+            <summary>
+            가맹사업 개시일
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.BranchCount">
+            <summary>
+            가맹지역본부 수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.MembershipExpense">
+            <summary>
+            가맹부담금
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.Escrow">
+            <summary>
+            가맹금사업자 부담금
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.ContractLimit">
+            <summary>
+            조건 및 제한
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.InteriorExpense">
+            <summary>
+            인테리어 비용
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.AdvertisingExpenseState">
+            <summary>
+            광고판촉비 내역
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.SNSUrl">
+            <summary>
+            SNS 주소
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.PortalUrl">
+            <summary>
+            포털 주소
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.HomepageUrl">
+            <summary>
+            홈페이지 주소
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.TelephoneNumber">
+            <summary>
+            연락처
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.LastAverageSales">
+            <summary>
+            최근 연평균매출액
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.LastAverageSalesPerUnitArea">
+            <summary>
+            최근 단위면적당 평균매출액 (3.3m2)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.LastTotalStoreCount">
+            <summary>
+            최근 가맹점수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.MemberStatesJson">
+            <summary>
+            가맹점 현황 및 평균매출액
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FranchiseBrand.FluctuationStatesJson">
+            <summary>
+            가맹점 변동 현황
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.MembershipExpense">
+            <summary>
+            가맹부담금
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.MembershipExpense.Membership">
+            <summary>
+            가입비
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.MembershipExpense.Educational">
+            <summary>
+            교육비
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.MembershipExpense.Deposit">
+            <summary>
+            보증금
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.MembershipExpense.Other">
+            <summary>
+            기타비용
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.MembershipExpense.Total">
+            <summary>
+            합계
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.Escrow">
+            <summary>
+            가맹금사업자 부담금
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.Escrow.Type">
+            <summary>
+            형태
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.Escrow.Deposit">
+            <summary>
+            예치 가맹금
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.InteriorExpense">
+            <summary>
+            인테리어 비용
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.InteriorExpense.ExpensePerUnitArea">
+            <summary>
+            단위면적당 인테리어비용 (3.3m2)
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.ContractLimit">
+            <summary>
+            조건 및 제한
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ContractLimit.MinimumTerm">
+            <summary>
+            최초계약기간
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ContractLimit.ExtensionTerm">
+            <summary>
+            연장계약기간
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.AdvertisingExpenseState">
+            <summary>
+            광고판촉비
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.AdvertisingExpenseState.Year">
+            <summary>
+            연도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.AdvertisingExpenseState.Advertising">
+            <summary>
+            광고비
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.AdvertisingExpenseState.SalesPromotion">
+            <summary>
+            판촉비
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.FluctuationState">
+            <summary>
+            가맹점 변동 현황
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FluctuationState.BrandName">
+            <summary>
+            영업표지
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FluctuationState.Year">
+            <summary>
+            연도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FluctuationState.NewStoreCount">
+            <summary>
+            신규개점
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FluctuationState.ContractTerminationCount">
+            <summary>
+            계약종료
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FluctuationState.ContractCancelCount">
+            <summary>
+            계약해지
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.FluctuationState.TransferCount">
+            <summary>
+            명의변경
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.MemberState">
+            <summary>
+            가맹점 현황 및 평균매출액
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.MemberState.BrandName">
+            <summary>
+            영업표지
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.MemberState.Province">
+            <summary>
+            지역
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.MemberState.Year">
+            <summary>
+            연도
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.MemberState.TotalStoreCount">
+            <summary>
+            전체가맹점
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.MemberState.FranchiseStoreCount">
+            <summary>
+            가맹점
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.MemberState.DirectManagementStoreCount">
+            <summary>
+            직영점
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.MemberState.AverageSales">
+            <summary>
+            평균매출역
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.MemberState.AverageSalesPerUnitArea">
+            <summary>
+            단위면적당 평균매출액 (3.3m2)
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.FranchiseBrandTop30Average">
+            <summary>
+            중분류별 상위30개 프랜차이즈 매출, 인테리어, 부담금 평균
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.FranchiseBrandStoreCountTop30Average">
+            <summary>
+            중분류별 연도별 상위30개 프랜차이즈 평균 가맹점수
+            </summary>
+        </member>
+        <member name="T:SugarHill.OfficeSquare.Component.Models.FranchiseBrandCount">
+            <summary>
+            중분류별 프랜차이즈수
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.FuelType.Gas">
+            <summary>
+            도시가스 (HF001)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.FuelType.Cogeneration">
+            <summary>
+            열병합 (HF002)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.FuelType.Eletric">
+            <summary>
+            전기 (HF004)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.FuelType.NightEletric">
+            <summary>
+            심야전기 (HF005)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.FuelType.Oil">
+            <summary>
+            기름 (HF003)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.FuelType.Solar">
+            <summary>
+            태양열 (HF006)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.FuelType.LPG">
+            <summary>
+            LPG (HF007)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.HeatingType.Individual">
+            <summary>
+            개별난방 (HT001)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.HeatingType.District">
+            <summary>
+            지역난방 (HT005)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.HeatingType.Central">
+            <summary>
+            중앙난방 (HT002)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.HeatingType.IndividualWithCooling">
+            <summary>
+            개별낸난방 (HT003)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.HeatingType.DistrictWithCooling">
+            <summary>
+            지역냉난방 (HT006)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.HeatingType.CentralWithCooling">
+            <summary>
+            중앙냉난방 (HT004)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.HeatingType.None">
+            <summary>
+            없음
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.HeatingType.Other">
+            <summary>
+            기타
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ApplicationUser.NotificationPlatform">
+            <summary>
+            삭제 예정
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ApplicationUser.NotificationRegistrationId">
+            <summary>
+            삭제 예정
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ApplicationUser.DeviceId">
+            <summary>
+            삭제 예정
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPCompleteType.CMPL">
+            <summary>
+            거래완료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPCompleteType.DCL">
+            <summary>
+            신고
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationCategoryType.D">
+            <summary>
+            홍보확인서
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationCategoryType.T">
+            <summary>
+            전화확인
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationCategoryType.M">
+            <summary>
+            모바일확인
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationCategoryType.S">
+            <summary>
+            현장확인
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationCategoryType.O">
+            <summary>
+            집주인확인(모바일확인V2)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationType.D10">
+            <summary>
+            홍보확인서 확인
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationType.D20">
+            <summary>
+            등본확인 (홍보확인서)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationType.D30">
+            <summary>
+            네이버인증 (홍보확인서2의 직거래 Only)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationType.T10">
+            <summary>
+            전화확인
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationType.T20">
+            <summary>
+            등본확인 (전화확인)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationType.M10">
+            <summary>
+            모바일 확인
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationType.M15">
+            <summary>
+            분양계약서확인
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationType.M20">
+            <summary>
+            등본확인 (모바일확인)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationType.S10">
+            <summary>
+            예약확인
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationType.S20">
+            <summary>
+            현장방문
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationType.S30">
+            <summary>
+            검숙확인
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationType.O10">
+            <summary>
+            집주인확인
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationType.O20">
+            <summary>
+            소유자 실명이증
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationResultType.S">
+            <summary>
+            성공
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationResultType.F">
+            <summary>
+            실패
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationResultType.W">
+            <summary>
+            지연 (현장확인)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.T1R">
+            <summary>
+            전화확인 요청
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.T1F">
+            <summary>
+            전화확인 실패(1차실패)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.T1E">
+            <summary>
+            전화확인 종료(최종실패)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.T1C">
+            <summary>
+            전화확인 취소(사용자 취소)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.T2R">
+            <summary>
+            전화확인-등기부등본확인 요청
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.T2F">
+            <summary>
+            전화확인-등기부등본확인 실패(2차 확인 시도)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.T2E">
+            <summary>
+            전화확인-등기부등본확인 종료(최종 실패)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.T2C">
+            <summary>
+            전화확인-등기부등본확인 취소(사용자 요청 취소)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.D1R">
+            <summary>
+            홍보확인서 확인 요청
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.D1F">
+            <summary>
+            홍보확인서 확인 실패(1차실패)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.D1E">
+            <summary>
+            홍보확인서 확인 종료(최종 실패)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.D1C">
+            <summary>
+            홍보확인서 확인 취소(사용자 요청)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.D2R">
+            <summary>
+            홍보확인서-등기부등본확인 요청
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.D2F">
+            <summary>
+            홍보확인서-등기부등본확인 실패(2차 확인 시도)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.D2E">
+            <summary>
+            홍보확인서-등기부등본확인 종료(최종 실패)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.D2C">
+            <summary>
+            홍보확인서-등기부등본확인 취소(사용자 요청 취소)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.D3F">
+            <summary>
+            직거래-홍보확인서2-소유자 네이버인증 실패(1차 실패)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.D3E">
+            <summary>
+            직거래-홍보확인서2-소유자 네이버인증 종료(최종 실패)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.D3C">
+            <summary>
+            직거래-홍보확인서2-소유자 네이버인증 취소(사용자 요청 취소)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.M1R">
+            <summary>
+            모바일확인 요청
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.M1S">
+            <summary>
+            모바일확인 성공
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.M1C">
+            <summary>
+            모바일확인 취소(사용자취소)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.M1E">
+            <summary>
+            모바일확인 종료(최종실패)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.M2R">
+            <summary>
+            모바일확인-등기부등본 요청
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.M2S">
+            <summary>
+            모바일확인-등기부등본 성공
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.M2C">
+            <summary>
+            모바일확인-등기부등본 취소(사용자취소)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.M2E">
+            <summary>
+            모바일확인-등기부등본 종료(최종실패)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.M3R">
+            <summary>
+            모바일확인-분양계약서확인 요청
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.M3S">
+            <summary>
+            모바일확인-분양계약서확인 성공
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.M3C">
+            <summary>
+            모바일확인-분양계약서확인 취소(사용자취소)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.M3E">
+            <summary>
+            모바일확인-분양계약서확인 종료(최종실패)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.S1R">
+            <summary>
+            현장확인 예약 요청
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.S1W">
+            <summary>
+            현장확인 예약 지연
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.S1S">
+            <summary>
+            현장확인 예약 성공
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.S1C">
+            <summary>
+            현장확인 예약 취소(사용자 요청)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.S2S">
+            <summary>
+            촬영 성공
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.S2W">
+            <summary>
+            촬영 지연
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.S2C1">
+            <summary>
+            현장방문전 취소
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.S2C2">
+            <summary>
+            현장방문후 취소
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.S2C3">
+            <summary>
+            현장촬영후 취소
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.S3W">
+            <summary>
+            현장확인 검수 지연
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.S3R">
+            <summary>
+            현장확인 검증확인 요청
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.S3S">
+            <summary>
+            현장확인 검증 완료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.S3E">
+            <summary>
+            현장확인 검증 종료(최종 실패)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.O1R">
+            <summary>
+            집주인확인-등기부등본 확인요청
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.O1S">
+            <summary>
+            집주인확인-등기부등본 확인 성공
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.O1C">
+            <summary>
+            집주인확인-등기부등본 확인 취소(사용자 취소)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.O1F">
+            <summary>
+            집주인확인-등기부등본 확인 1차 실패
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.O1E">
+            <summary>
+            집주인확인-등기부등본 확인 종료(최종 실패)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.O2R">
+            <summary>
+            집주인확인-실명확인요청
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.O2F">
+            <summary>
+            집주인확인-실명확인 1차 실패
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.O2C">
+            <summary>
+            집주인확인-실명확인 취소(사용자 취소)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.O2E">
+            <summary>
+            집주인확인-실명확인 종료(최종실패)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.O2S">
+            <summary>
+            집주인확인-실명확인 성공
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.R0">
+            <summary>
+            노출 대기
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.R1">
+            <summary>
+            서비스 노출
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.R2">
+            <summary>
+            거래완료 노출
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.R3">
+            <summary>
+            거래완료 노출(소유자 거래완료)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.E11">
+            <summary>
+            기간만료 노출 종료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.E12">
+            <summary>
+            사용자 요청 노출 종료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.E13">
+            <summary>
+            관리자 노출 종료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.E14">
+            <summary>
+            소유자 노출 종료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.E15">
+            <summary>
+            동일주소 거래완료에 의한 노출종료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.F1R">
+            <summary>
+            허위매물 신고 임의 노출종료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.F2C">
+            <summary>
+            사용자의 허위매물 처리에 의한 노출 종료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.F2E">
+            <summary>
+            검증센터 검증 결과에 의한 허위매물 처리(노출종료)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.CV1R">
+            <summary>
+            재검증 요청 (커스텀코드)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.EXCLUDED_PAYMENT_CODES">
+            <summary>
+            비용 청구 안하는 코드 목록
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.CANCELABLE_CODES">
+            <summary>
+            IA113 취소 가능한 상태코드 (TODO: 홍보확인서 미첨부는 확인해야 됨)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.EDITABLE_CODES">
+            <summary>
+            매물 수정 가능한 상태코드(수정화면 진입용)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.RE_VERIFICATABLE_CODES">
+            <summary>
+            IA105 매물 재검증 가능한 상태코드
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPArticleStatusCode.RE_REGISTABLE_CODES">
+            <summary>
+            매물 재등록 가능한 상태코드 (검증실패(최종실패), 사용자취소, 거래완료, 노출종료, 기간만료), 
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPSex.M">
+            <summary>
+            남성
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPSex.F">
+            <summary>
+            여성
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPActionName.IA101">
+            <summary>
+            매물등록요청 (네모 -> 검증센터)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPActionName.IA201">
+            <summary>
+            매물정보요청 (검증센터 -> 슈가힐)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPActionName.IA211">
+            <summary>
+            검증결과전송 (검증센터 -> 슈가힐)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPActionName.IA102">
+            <summary>
+            검증결과요청 (네모 -> 검증센터)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPActionName.IA213">
+            <summary>
+            매물정보변경알림 (검증센터 -> 슈가힐)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPActionName.IA103">
+            <summary>
+            매물정보요청 (네모 -> 검증센터)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPActionName.IA212">
+            <summary>
+            매물등록 취소 결과 전송 (검증센터 -> 슈가힐)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPActionName.IA221">
+            <summary>
+            동일주소 거래완료 확인요청 (검증센터 -> 슈가힐)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPActionName.IA111">
+            <summary>
+            거래완료 요청 (네모 -> 검증센터)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPActionName.IA112">
+            <summary>
+            노출종료 요청 (네모 -> 검증센터)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPActionName.IA113">
+            <summary>
+            검증 과정 중 등록취소 요청 (네모 -> 검증센터)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPActionName.IA104">
+            <summary>
+            매물 수정 요청 (네모 -> 검증센터)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPActionName.IA105">
+            <summary>
+            재검증 요청 (네모 -> 검증센터)
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPReportType.PRICE">
+            <summary>
+            허위 매물가격
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPReportType.CMPL">
+            <summary>
+            거래완료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPReportType.AUCT">
+            <summary>
+            경매매물
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPReportType.ETC">
+            <summary>
+            기타
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPAgentReportType.NORMAL">
+            <summary>
+            정상매물
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPAgentReportType.FALSE">
+            <summary>
+            노출종료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPAgentReportType.CMPL">
+            <summary>
+            거래완료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPCleanCenterStepType.RLTR">
+            <summary>
+            중개사 처리단계
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPCleanCenterStepType.CALL">
+            <summary>
+            유선확인 단계
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPCleanCenterStepType.FILD">
+            <summary>
+            현장검증단계
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPCleanCenterResultType.NOMAL">
+            <summary>
+            정상매물
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPCleanCenterResultType.EXPR">
+            <summary>
+            기간만료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPCleanCenterResultType.FALSE">
+            <summary>
+            허위매물
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPCleanCenterResultType.ABEND">
+            <summary>
+            부재종료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPCleanCenterResultType.DENY">
+            <summary>
+            검증거부
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPCleanCenterResultType.IMPS">
+            <summary>
+            검증불가
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPCleanCenterResultType.CMPL">
+            <summary>
+            거래완료
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPCleanCenterArticleExposeType.EXPS">
+            <summary>
+            노출
+            </summary>
+        </member>
+        <member name="F:SugarHill.OfficeSquare.Component.Models.NaverCPCleanCenterArticleExposeType.CLOSE">
+            <summary>
+            노출종료
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleVerificationInfo.Type">
+            <summary>
+            검증방식구분코드, type, 필수.
+            NaverCPVerificationCategoryType
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleVerificationInfo.SellerName">
+            <summary>
+            매도자명, name, 전화확인 필수.
+            검증방식구분코드가 전화확인인 경우 필수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleVerificationInfo.SellerPhoneNumber">
+            <summary>
+            매도자전화번호, cphone, 전화확인 필수.
+            검증방식구분코드가 전화확인인 경우 필수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleVerificationInfo.OwnerName">
+            <summary>
+            소유자명, oname, 모바일확인 / 집주인확인 필수
+            검증방식구분코드가 모바일확인 인 경우 필수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleVerificationInfo.OwnerPhoneNumber">
+            <summary>
+            소유자전화번호, ophone, 모바일확인 / 집주인확인 필수
+            네이버 실명인증을 할 수 있는 소유자 명의 휴대폰 번호검증방식구분코드가 모바일확인 인 경우 필수
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleVerificationInfo.OwnerRelation">
+            <summary>
+            소유자와의 관계
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleVerificationInfo.SiteConfirmDate">
+            <summary>
+            현장확인희망일, rdate. 현장확인 필수.
+            현장확인 검증 희망일(yyyyMMdd) 검증방식구분코드가 현장확인 인 경우 옵션
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleVerificationInfo.IsEmpty">
+            <summary>
+            공실 여부, empty. 현장확인 필수.
+            true : 공실, false : 거주인 있음
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleVerificationInfo.OwnerTelecom">
+            <summary>
+            소유자 휴대폰이동통신사명, otelecom, 집주인확인 전용(필수).
+            NaverCPMobileProvider
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleVerificationInfo.OwnerSex">
+            <summary>
+            소유자 성별, osex, 집주인확인 전용(필수).
+            NaverCPSex
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleVerificationInfo.PropertyRegistrationUrl">
+            <summary>
+            등기부등본파일, registerUrl, 모바일확인1/2 전용(모바일확인2 필수)
+            PDF 파일 URL 혹은사진 파일(PNG,GIF,JPG / 10m MAX) 1~2장, 구분자 "|"
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleVerificationInfo.IsOwnerAgree">
+            <summary>
+            소유자인증 동의, oagree, 집주인확인 필수홍보확인서 소유자 확인 추가시 필수.
+            true : 소유자 실명인증 관련 동의 완료. (oname, ophone값 필수), false : 동의 안함.
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleVerificationInfo.ConfirmdocumentImageUrl">
+            <summary>
+            홍보확인서이미지파일, confirmdocUrl, 혹보확인서 전용(Fax or 이미지 파일).
+            1장 최대 10M, pdf/jpg/gif/png
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleVerificationInfo.ReferenceFileUrl">
+            <summary>
+            검증참고 파일, referenceFileUrl.
+            계약서, 재직증명서, 명함 등 파일 10장 이내구분자 "|"장당 최대 10M, pdf/jpg/gif/png
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticle.CompleteType">
+            <summary>
+            동일주소 확인요청, reqType.
+            NaverCPCompleteType
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticle.StatusCode">
+            <summary>
+            매물 상태 코드
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.ReportId">
+            <summary>
+            [신고된 경우 필수 존재]
+            신고 아이디
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.ActionName">
+            <summary>
+            신고 또는 사후검증 API Endpoint 이름
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.ReportTypeName">
+            <summary>
+            [신고된 경우 필수 존재]
+            신고유형타입 (NaverCPReportType, 허위 매물가격 : PRICE, 거래완료 : CMPL, 경매매물 : AUCT, 기타 : ETC)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.ReportDescription">
+            <summary>
+            신고설명 (신고유형타입과 같이 전달되는 값)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.ReportResultMessage">
+            <summary>
+            [신고된 경우 필수 존재]
+            신고결과 처리 메시지 (API: reportResult)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.ReportMessage">
+            <summary>
+            신고결과 반환 메시지 (API: reportResult)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.SelectedAgentReportType">
+            <summary>
+            [검증신청 경우 필수 존재, 중개사가 처리하지 않는 한]
+            중개사 신고 처리 타입 (정상처리: NORMAL, 노출종료: FALSE, 거래완료: CMPL)
+            중개사가 신고된 매물에 대해 처리할 수 있는 방식 (ex, 정상처리를 선택한 경우 이의신청 처리됨)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.CleanCenterStepType">
+            <summary>
+            [검증신청 결과에서 필수 존재]
+            클린센터 처리단계 (중개사 처리단계: RLTR, 유선확인 단계 : CALL, 현장검증단계 : FILD)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.CleanCenterResultType">
+            <summary>
+            [검증신청 결과에서 필수 존재]
+            클린센터 처리결과 (정상매물: NOMAL, 기간만료 : EXPR, 허위매물 : FALSE, 부재종료 : ABEND, 검증거부 : DENY, 검증불가 : IMPS, 거래완료 : CMPL)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.CleanCenterArticleExposeType">
+            <summary>
+            [검증신청 결과에서 필수 존재]
+            클린센터 매물노출처리 (노출: EXPS, 노출종료 : CLOSE)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.IsCleanCenterWarning">
+            <summary>
+            [검증신청 결과에서 필수 존재]
+            클린센터 경고처리 여부 (경고와 페널티가 있으나 해당값은 경고)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.CleanCenterPenaltyId">
+            <summary>
+            클린센터 경고 고유번호(id - 부여된 페널티의 ID값 (페널티 취소 시 해당 페널티 인식을 위해서 쓰임))
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.CleanCenterPenaltyType">
+            <summary>
+            클린센터 경고 타입 (경고: WARN, 경고누적 페널티: PWARN, 유선확인 페널티: PCALL, 현장검증 페널티: PFILD, 신고자 페널티 : PDCLR(신고자 페널티의 경우 penaltyId 없음.해당 페널티의 취소 관리는 각 서비스 업체에서 담당 함.)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.PenaltyPublicFromUtc">
+            <summary>
+            페널티 시작일시
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.PenaltyPublicToUtc">
+            <summary>
+            페널티 종료일시
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.KisoAgentMessage">
+            <summary>
+            KISO 담당자가 중개사에 보내는 메세지
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.KisoReporterMessage">
+            <summary>
+            KISO 담당자가 신고자에 보내는 메세지
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.IsCompleted">
+            <summary>
+            [검증신청 결과에서 필수 존재]
+            클린센터 사후검증 종료여부 (최종종료)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.CleanCenterStepCount">
+            <summary>
+            [검증신청 결과에서 필수 존재]
+            해당 단계의 번복이 있는 경우에 count를 증가시킨 값으로 전송
+            용도 : api 호출 타임이 꼬이는 경우, 최종 번복을 판별하기 위함.
+            (예: 중개업소가 정상 처리시 이에 대한 결과가 1이라면 이후 다시 상태변경을 통해허위매물로 처리가 되어야 하는 상황에 대한 전달은 2로 증가시켜 전달)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.CleanCenterCompletedUtc">
+            <summary>
+            검증 처리 일시 (재신고 단계 : 상담일시, 현장검증 단계 : 방문일시) 
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPArticleReportHistory.CleanCenterArticleClosedUtc">
+            <summary>
+            매물 노출 중단 일시, 매물 노출 중단이 발생한 경우만 전달
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.NaverCPVerificationDocuments.D">
+            <summary>
+            홍보확인서
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.Municipality.BasicBasePrice">
+            <summary>
+            삭제 예정
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.Submunicipality.BasePrice">
+            <summary>
+            삭제 예정
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.BusinessBasicPrice">
+            <summary>
+            상업용 일반
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.OfficeArticlePremiumPrice">
+            <summary>
+            사무실 우선노출
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.StoreArticlePremiumPrice">
+            <summary>
+            상가 우선노출
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.BusinessArticlePremiumPackagePrice">
+            <summary>
+            상업용 우선노출
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.OfficeAgentPremiumPrice">
+            <summary>
+            사무실 레드프리미엄
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.StoreAgentPremiumPrice">
+            <summary>
+            상가 레드프리미엄
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.BusinessAgentPremiumPackagePrice">
+            <summary>
+            상업용 레드프리미엄
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.OfficeAgentFeaturedPrice">
+            <summary>
+            사무실 레드추천
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.StoreAgentFeaturedPrice">
+            <summary>
+            상가 레드추천
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.BusinessAgentFeaturedPackagePrice">
+            <summary>
+            상업용 레드추천
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.RoomBasicPrice">
+            <summary>
+            원룸 일반
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.VillaBasicPrice">
+            <summary>
+            빌라 일반
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.RoomVillaBasicPrice">
+            <summary>
+            원룸 + 빌라 일반
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.ApartmentBasicPrice">
+            <summary>
+            아파트 일반
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.RoomArticlePremiumPrice">
+            <summary>
+            원룸 우선노출
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.VillaArticlePremiumPrice">
+            <summary>
+            빌라 우선노출
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.ApartmentArticlePremiumPrice">
+            <summary>
+            아파트 우선노출
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.RoomAgentPremiumPrice">
+            <summary>
+            원룸 레드프리미엄
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.VillaAgentPremiumPrice">
+            <summary>
+            빌라 레드프리미엄
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.ApartmentAgentPremiumPrice">
+            <summary>
+            아파트 레드프리미엄
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.RoomAgentFeaturedPrice">
+            <summary>
+            원룸 레드추천
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.VillaAgentFeaturedPrice">
+            <summary>
+            빌라 레드추천
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.ApartmentAgentFeaturedPrice">
+            <summary>
+            아파트 레드추천
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.ResidenceBasicPrice">
+            <summary>
+            삭제 예정
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.ResidenceArticlePremiumPackagePrice">
+            <summary>
+            삭제 예정
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.ResidenceAgentPremiumPackagePrice">
+            <summary>
+            삭제 예정
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubmunicipalityPriceInfo.ResidenceAgentFeaturedPackagePrice">
+            <summary>
+            삭제 예정
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.StartupMapCompany.LargeIndustryGroup">
+            <summary>
+            산업 군 대 카테고리
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.StartupMapCompany.SmallIndustryGroup">
+            <summary>
+            산업 군 소 카테고리
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubwayStationPriceInfo.OfficeArticlePremiumPrice">
+            <summary>
+            사무실 우선노출
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubwayStationPriceInfo.StoreArticlePremiumPrice">
+            <summary>
+            상가 우선노출
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubwayStationPriceInfo.BusinessArticlePremiumPackagePrice">
+            <summary>
+            사무실+상가 우선노출
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubwayStationPriceInfo.RoomArticlePremiumPrice">
+            <summary>
+            원룸 우선노출
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubwayStationPriceInfo.VillaArticlePremiumPrice">
+            <summary>
+            빌라 우선노출
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubwayStationPriceInfo.ApartmentArticlePremiumPrice">
+            <summary>
+            아파트 우선노출
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.SubwayStationPriceInfo.ResidenceArticlePremiumPackagePrice">
+            <summary>
+            주거용 우선노출 (삭제 예정)
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ArticleCountSummary.HousePart.Summary.PublicRoom">
+            <summary>
+            오피스텔을 제외한 원룸/투룸
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ArticleCountSummary.HousePart.Summary.PublicOfficetel">
+            <summary>
+            오피스텔
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ArticleCountByArticleTypeSummary.HousePart.RoomCount">
+            <summary>
+            오피스텔을 제외한 원룸/투룸
+            </summary>
+        </member>
+        <member name="P:SugarHill.OfficeSquare.Component.Models.ArticleCountByArticleTypeSummary.HousePart.OfficetelCount">
+            <summary>
+            오피스텔
+            </summary>
+        </member>
+    </members>
+</doc>
